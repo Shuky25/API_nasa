@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../layout/style.css">
+    <title>Doamci</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                <div id="logo">
+                    <img src="../img/logo.png" alt="logo">
+                </div>
+                <ul id="ulbar">
+                    <li id="lista">
+                        <a href="../index.html">Pocetna</a>
+                    </li>
+                    <li>
+                        <a href="domaci.html" class="active">Domaci</a>
+                    </li>
+                    <li>
+                        <a href="#">Kontakt</a>
+                    </li>
+                    <li>
+                        <a href="#">O nama</a>
+                    </li>
+                </ul>
+                <div id="login">
+                    <button>Login</button>
+                </div>
+            </nav>
+        </header>
+
+        <section id="content">
+            <div class="container">
+                <h2>Unesite datum i vidite sliku tog dana!</h2>
+                <form action="">
+                    <div class="form-control">
+                        <label for="day">Datum: </label>
+                        <input id="datum" type="date">
+                    </div><!-- 
+                    <button onclick="api()" class="posalji">Uzmi sliku</button> -->
+                </form>
+            </div>
+            <p id="tekst"></p>
+            <img style="width: 150px;" src="" id="slika" alt="slika">
+        </section>
+
+        <footer>
+            <p>&copy; by Vojin Sundovic</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" id="menu">
+                        <h2>Social media: </h2>
+                        <ul>
+                            <li>
+                                <a href="#" class="fa fa-google"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="fa fa-instagram"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="fa fa-facebook"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6" id="forma">
+                        <form action="" class="m-auto">
+                            <div class="form-control">
+                                <label for="mejl">Mejl: </label><br>
+                                <input type="text" placeholder="Unesi mejl">
+                            </div>
+                            <div class="form-control">
+                                <label for="poruka">Poruka: </label><br>
+                                <textarea name="poruka" id="poruka" cols="30" rows="10" placeholder="Unesi poruku"></textarea>
+                            </div>
+                            <button>Posalji</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="../script/script.js"></script>
+    </body>
+    </html>
+</body>
+</html>

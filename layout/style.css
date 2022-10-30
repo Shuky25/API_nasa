@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(75, 103, 156);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+nav #logo img {
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  display: inherit;
+}
+nav ul li {
+  margin: 10px 20px;
+}
+nav ul li a {
+  margin: 0;
+  text-decoration: none;
+  color: rgb(190, 204, 229);
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.2s;
+}
+nav ul li a:hover {
+  color: black;
+}
+nav #login button {
+  margin: 20px;
+  text-align: center;
+  color: #000;
+  background-color: rgb(190, 204, 229);
+  outline: none;
+  padding: 10px 20px;
+  border: 2px solid rgb(190, 204, 229);
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+nav #login button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(190, 204, 229);
+}
+
+section#home .container #blok1 {
+  margin: 50px 0 50px 0;
+}
+section#home .container #blok1 h1 {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+section#home .container #blok1 .col-md-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  background-color: rgb(75, 103, 156);
+  padding: 20px;
+}
+footer p {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+footer .row #menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .row #menu h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+footer .row #menu ul {
+  list-style: none;
+}
+footer .row #menu ul li a {
+  color: #fff;
+  font-size: 40px;
+  text-decoration: none;
+  transition: 0.2s;
+  margin: 20px;
+}
+footer .row #menu ul li a:hover {
+  color: #d3d3d3;
+}
+footer .row #forma form {
+  text-align: center;
+  margin: auto;
+  width: 400px;
+}
+footer .row #forma form .form-control {
+  background-color: transparent;
+  border: none;
+}
+footer .row #forma form .form-control label {
+  color: #d3d3d3;
+}
+footer .row #forma form .form-control input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(190, 204, 229);
+  outline: none;
+  transition: 0.2s;
+}
+footer .row #forma form .form-control input:focus {
+  border: 2px solid black;
+}
+footer .row #forma form .form-control textarea {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(190, 204, 229);
+  outline: none;
+  transition: 0.2s;
+}
+footer .row #forma form .form-control textarea:focus {
+  border: 2px solid black;
+}
+footer .row #forma form button {
+  margin: 20px;
+  text-align: center;
+  color: #000;
+  background-color: rgb(190, 204, 229);
+  outline: none;
+  padding: 10px 20px;
+  border: 2px solid rgb(190, 204, 229);
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+footer .row #forma form button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(190, 204, 229);
+}
+
+.active {
+  font-weight: bolder;
+  color: #000;
+}
+
+.banner {
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/coding.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */
